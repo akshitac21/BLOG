@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Scientax - Perosonal Blog Website</title>
+  <meta name="title" content="Scientax - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by akshita">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="img/fav.svg" >
+
+   <!-- custom css link -->
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="images/hero-banner.png">
+  <link rel="preload" as="image" href="images/pattern-2.svg">
+  <link rel="preload" as="image" href="images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="images/logo2.svg" width="119" height="37" alt="Scientax logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images/logo2.svg" width="119" height="37" alt="Scientax logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Post</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <!-- <a href="#" class="btn btn-primary">Reach Out</a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - PERSONAL
+      -->
+
+      <section class="PERSONAL" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="PERSONAL-content">
+
+            <p class="PERSONAL-subtitle">Hello Everyone!</p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Akshita Choudhury</span>
+            </h1>
+
+            <p class="PERSONAL-text">
+              I am a pre final year student at National Institute of Technology Puducherry studying Computer Science and Engineering.
+              This is my personal blog documents the details of my projects, achievements and my skills of Frontend development using HTML CSS and Javascript
+            </p>
+
+          </div>
+
+          <div class="PERSONAL-banner">
+
+            <img src="images/Me.jpg" width="327" height="490" alt="Scientax" class="w-100">
+
+            <img src="images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="images/shadow-2.svg" width="500" height="500" alt="" class="PERSONAL-bg PERSONAL-bg-2">
+
+        </div>
+      </section>
+
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                Browse
+              </h2>
+
+              <p class="card-text">
+                Articles and insights about various tech topics
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-1.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Operating System</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-2.png" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">DBMS</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-3.png" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Computer Networks</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-4.png" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">OOPs</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-5.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Linux</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="images/topic-5.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Git</span>
+
+                      <p class="slider-subtitle">See Article</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #TAGS
+      -->
+
+      <section class="tags" aria-labelledby="tag-label">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title" id="tag-label">
+            <span class="span">Skills</span>
+          </h2>
+
+          <p class="section-text">
+            My Technical skills 
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag1.png" width="32" height="32" loading="lazy" alt="Travel">
+
+                <p class="btn-text">C/C++</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag2.png" width="32" height="32" loading="lazy" alt="Culture">
+
+                <p class="btn-text">Python</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag3.png" width="32" height="32" loading="lazy" alt="Lifestyle">
+
+                <p class="btn-text">SQL</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag4.png" width="32" height="32" loading="lazy" alt="Fashion">
+
+                <p class="btn-text">Linux</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag5.png" width="32" height="32" loading="lazy" alt="Food">
+
+                <p class="btn-text">Blogging</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag6.png" width="32" height="32" loading="lazy" alt="Space">
+
+                <p class="btn-text">Git</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag7.png" width="32" height="32" loading="lazy" alt="Animal">
+
+                <p class="btn-text">FIGMA</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag8.png" width="32" height="32" loading="lazy" alt="Minimal">
+
+                <p class="btn-text">Flask</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag9.png" width="32" height="32" loading="lazy" alt="Interior">
+
+                <p class="btn-text">HTML</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag10.png" width="32" height="32" loading="lazy" alt="Plant">
+
+                <p class="btn-text">CSS</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag11.png" width="32" height="32" loading="lazy" alt="Nature">
+
+                <p class="btn-text">Javascript</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="card tag-btn">
+                <img src="images/tag12.png" width="32" height="32" loading="lazy" alt="Business">
+
+                <p class="btn-text">Personal Projects</p>
+              </button>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="images/logo2.svg" width="119" height="37" loading="lazy" alt="Scientax logo">
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="https://github.com/akshitac21" class="copyright-link">akshitac21</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/akshitac21" class="social-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <span class="span">Github</span>
+                  </a>
+                  
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
